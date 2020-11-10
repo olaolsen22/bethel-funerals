@@ -21,8 +21,6 @@
                     ) Enquire Now
                 .col-6.pane.d-none.d-md-block
                     EnquireNowForm(:content="rightPane")
-
-
 </template>
 
 <script>
@@ -87,7 +85,7 @@ export default {
             padding-left: 2rem;
         }
     }
-    @media screen and (max-width: 420px) { 
+    @media screen and (max-width: 512px) { 
         text-align: center; 
         padding: 0 1.25rem;
     }

@@ -15,7 +15,11 @@
                     :id="`enquire-field-${index}`" 
                     :placeholder="field.placeholder"
                 )
-            button.btn.btn-outline-light.mt-3(@click.prevent="") Submit
+            button.btn.btn-outline-light.mt-3(
+                @click.prevent=""
+                data-toggle="modal"
+                data-target="#enquireNowModal"
+            ) Submit
 </template>
 
 <script>

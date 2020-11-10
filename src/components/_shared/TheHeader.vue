@@ -15,7 +15,7 @@
     .main-logo {
         height: 3rem;
         width: auto;
-        @media screen and (max-width: 420px) { height: 2rem; }
+        @media screen and (max-width: 512px) { height: 2rem; }
     }
     .the-header-content {
         display: flex;
@@ -23,7 +23,7 @@
         align-items: center;
         justify-content: space-between;
         height: 8rem;
-        @media screen and (max-width: 420px) { height: 4rem; }
+        @media screen and (max-width: 512px) { height: 4rem; }
     }
 }
 .phone-link {
@@ -32,6 +32,6 @@
     &:hover {
         text-decoration: underline;
     }
-    @media screen and (max-width: 420px) { font-size: .75rem; }
+    @media screen and (max-width: 512px) { font-size: .75rem; }
 }
 </style>

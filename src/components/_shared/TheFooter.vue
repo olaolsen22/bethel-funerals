@@ -18,7 +18,7 @@
     .main-logo {
         height: 3rem;
         width: auto;
-        @media screen and (max-width: 420px) { height: 2rem; }
+        @media screen and (max-width: 512px) { height: 2rem; }
     }
     .the-footer-content {
         display: flex;
@@ -26,7 +26,7 @@
         align-items: center;
         justify-content: space-between;
         height: 6rem;
-        @media screen and (max-width: 420px) { 
+        @media screen and (max-width: 512px) { 
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -52,7 +52,7 @@
         &:hover { text-decoration: underline;}
     }
     &.copyright { font-weight: normal; }
-    @media screen and (max-width: 420px) { 
+    @media screen and (max-width: 512px) { 
         font-size: 14px;
         text-align: left;
         &.spacer { margin: 0 .5rem; }

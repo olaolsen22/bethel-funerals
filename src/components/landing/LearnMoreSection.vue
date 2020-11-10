@@ -46,9 +46,14 @@
         img {
             width: 300px;
             height: 218px;
+            @media screen and (max-width: 512px) {
+                width: 160px;
+                height: 116px;
+            }
         }
         p {
             width: 300px;
+            @media screen and (max-width: 512px) { width: 160px; }
             margin-top: 1rem;
             font-weight: bold;
             text-transform: uppercase;
