@@ -13,27 +13,8 @@
                 .card-container
                     img(src="@/assets/images/image-3.jpg")
                     p Pre-Paid Funerals vs. Funeral Bonds
-            //- div(v-for="card in cards")
-            //-     img(v-bind:src="require(card.imageUrl)")
-            //-     img(:src="require('@/assets/images/image-1.jpg')")
-            //-     p {{card.image}}
-            //- img(src="@/assets/images/image-1.jpg")
 
 </template>
-
-<script>
-export default {
-    data () {
-        return {
-            cards: [
-                { title: 'Pre-Paid Funeral Calculator', imageUrl: '@/assets/images/image-1.jpg' },
-                { title: 'Funeral Bonds vs. Funeral Insurance', imageUrl: '@/assets/images/image-2.jpg' },
-                { title: 'Pre-Paid Funerals vs. Funeral Bonds', imageUrl: '@/assets/images/image-3.jpg' }
-            ]
-        }
-    }
-}
-</script>
 
 <style lang="scss" scoped>
 @import '../../assets/styles/_variables.scss';
@@ -56,7 +37,10 @@ export default {
     justify-content: space-around;
     width: 100%;
     margin-top: 4rem;
-    @media screen and (max-width: 768px) { flex-wrap: wrap; }
+    @media screen and (max-width: 768px) { 
+        flex-wrap: wrap; 
+        margin-top: 2rem;
+    }
     .card-container {
         margin-bottom: 1rem;
         img {
@@ -74,6 +58,9 @@ export default {
             cursor: pointer;
             color: $primary;
             text-decoration: underline;
+        }
+        &:last-child {
+            p { margin-bottom: 0; }
         }
     }
 }
