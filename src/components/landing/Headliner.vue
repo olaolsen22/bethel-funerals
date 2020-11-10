@@ -8,6 +8,7 @@
 <style lang="scss" scoped>
 .jumbotron {
     height: 30rem;
+    margin-bottom: 0;
     @media screen and (max-width: 1024px) { height: 26rem; }
     @media screen and (max-width: 425px) { 
         height: 16rem;
@@ -38,7 +39,7 @@
                 ), 
                 url("../../assets/images/landing-hero-1.png");
                 background-size: cover;
-                background-position: 60% 50%;
+                background-position: 50% 50%;
         }
     }
     .container {
@@ -68,8 +69,8 @@
         width: 16rem;
     }
     @media screen and (max-width: 425px) {
-        font-size: 22px;
-        width: 8rem;
+        font-size: 26px;
+        width: 10rem;
     }
 }
 </style>
