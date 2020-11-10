@@ -3,6 +3,7 @@
     TheHeader
     Headliner
     EnquireNowSection
+    LearnMoreSection
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheHeader from './components/_shared/TheHeader.vue'
 import Headliner from './components/landing/Headliner.vue'
 import EnquireNowSection from './components/landing/enquire-now/EnquireNowSection.vue'
+import LearnMoreSection from './components/landing/LearnMoreSection.vue'
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     HelloWorld,
     TheHeader,
     Headliner,
-    EnquireNowSection
+    EnquireNowSection,
+    LearnMoreSection
   }
 }
 </script>
