@@ -78,9 +78,7 @@ export default {
         color: #FFFFFF;
     }
     &:first-child {
-        p {
-            margin-bottom: 0;
-        }
+        p { margin-bottom: 0; }
     }
     @media screen and (max-width: 768px) {
         padding-right: 2rem;
@@ -89,9 +87,10 @@ export default {
             padding-left: 2rem;
         }
     }
-}
-.container {
-    // margin: 0;
+    @media screen and (max-width: 420px) { 
+        text-align: center; 
+        padding: 0 1.25rem;
+    }
 }
 .modal-dialog{
     &.modal-fullscreen {

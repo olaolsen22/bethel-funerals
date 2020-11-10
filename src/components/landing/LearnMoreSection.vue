@@ -30,7 +30,7 @@
     }
 }
 .learn-more-description {
-    width: 26rem;
+    max-width: 26rem;
 }
 .cards-group {
     display: flex;

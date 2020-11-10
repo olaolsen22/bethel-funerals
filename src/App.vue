@@ -4,11 +4,13 @@
     Headliner
     EnquireNowSection
     LearnMoreSection
+    TheFooter
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TheHeader from './components/_shared/TheHeader.vue'
+import TheFooter from './components/_shared/TheFooter.vue'
 import Headliner from './components/landing/Headliner.vue'
 import EnquireNowSection from './components/landing/enquire-now/EnquireNowSection.vue'
 import LearnMoreSection from './components/landing/LearnMoreSection.vue'
@@ -18,6 +20,7 @@ export default {
   components: {
     HelloWorld,
     TheHeader,
+    TheFooter,
     Headliner,
     EnquireNowSection,
     LearnMoreSection

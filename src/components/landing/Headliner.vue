@@ -9,6 +9,7 @@
 .jumbotron {
     height: 30rem;
     margin-bottom: 0;
+    border-radius: 0;
     @media screen and (max-width: 1024px) { height: 26rem; }
     @media screen and (max-width: 425px) { 
         height: 16rem;
